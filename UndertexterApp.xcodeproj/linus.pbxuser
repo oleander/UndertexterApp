@@ -1,0 +1,131 @@
+// !$*UTF8*$!
+{
+	157964C512ECCB4F0097608A /* UndertexterApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = UndertexterApp;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	157964D812ECCB540097608A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	157964D912ECCB540097608A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	157964DC12ECCB9D0097608A /* AppController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1085, 529}}";
+			sepNavSelRange = "{381, 0}";
+			sepNavVisRange = "{0, 381}";
+		};
+	};
+	157964F012ECCCC60097608A /* CalcController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1085, 529}}";
+			sepNavSelRange = "{268, 0}";
+			sepNavVisRange = "{0, 546}";
+		};
+	};
+	1579651012ECDDE10097608A /* SomeController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1085, 767}}";
+			sepNavSelRange = "{1210, 0}";
+			sepNavVisRange = "{0, 963}";
+		};
+	};
+	172754BD107597F200D0347B /* Unit Tests */ = {
+		activeExec = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 157964C512ECCB4F0097608A /* UndertexterApp */;
+		activeTarget = 8D1107260486CEB800E47090 /* UndertexterApp */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* UndertexterApp */,
+		);
+		codeSenseManager = 157964D912ECCB540097608A /* Code sense */;
+		executables = (
+			157964C512ECCB4F0097608A /* UndertexterApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					907,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317508431;
+			PBXWorkspaceStateSaveDate = 317508431;
+		};
+		sourceControlManager = 157964D812ECCB540097608A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D1A51A110A4FF5D0046A98A /* Compile */ = {
+		activeExec = 0;
+	};
+	4D1A51A510A4FF640046A98A /* Embed */ = {
+		activeExec = 0;
+	};
+	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1085, 529}}";
+			sepNavSelRange = "{550, 0}";
+			sepNavVisRange = "{0, 620}";
+		};
+	};
+	8D1107260486CEB800E47090 /* UndertexterApp */ = {
+		activeExec = 0;
+		executables = (
+			157964C512ECCB4F0097608A /* UndertexterApp */,
+		);
+	};
+}

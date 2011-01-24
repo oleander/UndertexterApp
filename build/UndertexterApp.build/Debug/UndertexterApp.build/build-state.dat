@@ -1,0 +1,287 @@
+TUndertexterApp
+v7
+r0
+t317527353.307897
+cCheck dependencies
+cProcessInfoPlistFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/UndertexterApp.app/Contents/Resources/rb_main.rb rb_main.rb
+cCompileXIB /Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib
+cCpResource build/Debug/UndertexterApp.app/Contents/Resources/AppController.rb AppController.rb
+cCpResource build/Debug/UndertexterApp.app/Contents/Resources/CalcController.rb CalcController.rb
+cCpResource build/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb SomeController.rb
+cCpResource build/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif activityindicator.gif
+cCompileC build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o /Users/linus/Documents/Projekt/UndertexterApp/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp normal x86_64
+cTouch /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C445C5F00000000000000EE
+t1279548511
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004B732500000000000000005F
+t1265837312
+s95
+
+N/Library/Frameworks/MacRuby.framework/MacRuby
+c000000004CD26B8A0000000001695D48
+t1288858506
+s23682376
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/linus/Documents/Projekt/UndertexterApp/AppController.rb
+c000000004D3CA7C20000000000000182
+t1295820738
+s386
+
+N/Users/linus/Documents/Projekt/UndertexterApp/CalcController.rb
+c000000004D3CA0560000000000000224
+t1295818838
+s548
+
+N/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/InfoPlist.strings
+c000000004D3C93CF00000000000000B8
+t1295815631
+s184
+
+N/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib
+c000000004D3CDD3D000000000001FF8F
+t1295834429
+s130959
+
+N/Users/linus/Documents/Projekt/UndertexterApp/MainController.rb
+c000000004D3C9B410000000000000191
+t1295817537
+s401
+
+N/Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb
+c000000004D3CDDB30000000000000689
+t1295834547
+s1673
+
+N/Users/linus/Documents/Projekt/UndertexterApp/activity indicator.gif
+c000000004D3CCA390000000000000784
+t1295829561
+s1924
+
+N/Users/linus/Documents/Projekt/UndertexterApp/activityindicator.gif
+c000000004D3CCA390000000000000784
+t1295829561
+s1924
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
+t1295834553
+s102
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist
+t1295815738
+s790
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp
+t1295815739
+s9088
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/PkgInfo
+t1295815738
+s8
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/AppController.rb
+t1295820742
+s386
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/CalcController.rb
+t1295818844
+s548
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1295815738
+s184
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/MainMenu.nib
+t1295834435
+s22006
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/MainController.rb
+t1295817763
+s401
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb
+t1295834553
+s1673
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/activity indicator.gif
+t1295830339
+s1924
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif
+t1295830690
+s1924
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/rb_main.rb
+t1295815738
+s620
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/UndertexterApp.LinkFileList
+c000000004D3C943A0000000000000081
+t1295815738
+s129
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o
+t1295815739
+s5364
+
+N/Users/linus/Documents/Projekt/UndertexterApp/main.m
+c000000004D3C93CF00000000000000FC
+t1295815631
+s252
+i<MacRuby/MacRuby.h>
+
+N/Users/linus/Documents/Projekt/UndertexterApp/rb_main.rb
+c000000004D3C93CF000000000000026C
+t1295815631
+s620
+
+NInfo.plist
+c000000004D3C93CF000000000000034B
+t1295815631
+s843
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317527353#317527353#0(0"0(0#1#0"8832676928#0"0#
+
+CCompileC build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o /Users/linus/Documents/Projekt/UndertexterApp/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s317508538.725921
+e317508539.414175
+r1
+xCompileC
+xbuild/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o
+x/Users/linus/Documents/Projekt/UndertexterApp/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/linus/Documents/Projekt/UndertexterApp/main.m317508538#317508539#0(0"0(0#0#52"/Users/linus/Documents/Projekt/UndertexterApp/main.m8619649408#1099"    cd /Users/linus/Documents/Projekt/UndertexterApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/UndertexterApp.hmap -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -I/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/include -I/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/DerivedSources/x86_64 -I/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/DerivedSources -c /Users/linus/Documents/Projekt/UndertexterApp/main.m -o /Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib
+s317527235.203856
+e317527235.532613
+r1
+xCompileXIB
+x/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:399: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:396: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:396: warning: "Focus Ring Type" will be ignored on Mac OS X versions prior to 10.3.
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:393: warning: Mini Control Size is not supported on Mac OS X versions prior to 10.3.
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:393: warning: The property "Layout Direction" is not supported on Mac OS X versions prior to 10.6.
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:393: warning: NSTextField's "Placeholder String" will be ignored on Mac OS X versions prior to 10.3.
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:397: warning: Mini Control Size is not supported on Mac OS X versions prior to 10.3.
+o/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:397: warning: The property "Layout Direction" is not supported on Mac OS X versions prior to 10.6.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317527235#317527235#0(1446"/* com.apple.ibtool.document.warnings *//Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:399: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5./Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:396: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5./Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:396: warning: "Focus Ring Type" will be ignored on Mac OS X versions prior to 10.3./Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:393: warning: Mini Control Size is not supported on Mac OS X versions prior to 10.3./Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:393: warning: The property "Layout Direction" is not supported on Mac OS X versions prior to 10.6./Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:393: warning: NSTextField's "Placeholder String" will be ignored on Mac OS X versions prior to 10.3./Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:397: warning: Mini Control Size is not supported on Mac OS X versions prior to 10.3./Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib:397: warning: The property "Layout Direction" is not supported on Mac OS X versions prior to 10.6.8(22@119"This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#399#0#399#0#0"0(22@119"This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#396#0#396#0#0"0(22@69""Focus Ring Type" will be ignored on Mac OS X versions prior to 10.3.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#396#0#396#0#0"0(22@70"Mini Control Size is not supported on Mac OS X versions prior to 10.3.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#393#0#393#0#0"0(22@84"The property "Layout Direction" is not supported on Mac OS X versions prior to 10.6.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#393#0#393#0#0"0(22@86"NSTextField's "Placeholder String" will be ignored on Mac OS X versions prior to 10.3.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#393#0#393#0#0"0(22@70"Mini Control Size is not supported on Mac OS X versions prior to 10.3.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#397#0#397#0#0"0(22@84"The property "Layout Direction" is not supported on Mac OS X versions prior to 10.6.317527235#18446744073709551615#0#0(6@72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib317527229#397#0#397#0#0"0(0#0#72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib8721649664#392"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/MainMenu.nib /Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCopyStringsFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s317508538.371948
+e317508538.522538
+r1
+xCopyStringsFile
+x/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings317508538#317508538#0(0"0(0#0#77"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/InfoPlist.strings8619411360#387"    cd /Users/linus/Documents/Projekt/UndertexterApp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj0#
+
+CCpResource "build/Debug/UndertexterApp.app/Contents/Resources/activity indicator.gif" "activity indicator.gif"
+s317523139.069436
+e317523139.078880
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/activity indicator.gif
+xactivity indicator.gif
+lSLF07#2@27"Copy activity indicator.gif317523139#317523139#0(0"0(0#0#68"/Users/linus/Documents/Projekt/UndertexterApp/activity indicator.gif8818057056#368"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/linus/Documents/Projekt/UndertexterApp/activity indicator.gif" /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/AppController.rb AppController.rb
+s317513542.883817
+e317513542.890640
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/AppController.rb
+xAppController.rb
+lSLF07#2@21"Copy AppController.rb317513542#317513542#0(0"0(0#0#62"/Users/linus/Documents/Projekt/UndertexterApp/AppController.rb8824565440#360"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/AppController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/CalcController.rb CalcController.rb
+s317511644.381728
+e317511644.408466
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/CalcController.rb
+xCalcController.rb
+lSLF07#2@22"Copy CalcController.rb317511644#317511644#0(0"0(0#0#63"/Users/linus/Documents/Projekt/UndertexterApp/CalcController.rb8633485504#361"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/CalcController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/MainController.rb MainController.rb
+s317510563.975800
+e317510564.009846
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/MainController.rb
+xMainController.rb
+lSLF07#2@22"Copy MainController.rb317510563#317510564#0(0"0(0#0#63"/Users/linus/Documents/Projekt/UndertexterApp/MainController.rb8826233152#361"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/MainController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb SomeController.rb
+s317527353.293198
+e317527353.300084
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb
+xSomeController.rb
+lSLF07#2@22"Copy SomeController.rb317527353#317527353#0(0"0(0#0#63"/Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb8830467808#361"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif activityindicator.gif
+s317523490.239338
+e317523490.265683
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif
+xactivityindicator.gif
+lSLF07#2@26"Copy activityindicator.gif317523490#317523490#0(0"0(0#0#67"/Users/linus/Documents/Projekt/UndertexterApp/activityindicator.gif8725885120#365"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/activityindicator.gif /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/rb_main.rb rb_main.rb
+s317508538.374419
+e317508538.423012
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/rb_main.rb
+xrb_main.rb
+lSLF07#2@15"Copy rb_main.rb317508538#317508538#0(0"0(0#0#56"/Users/linus/Documents/Projekt/UndertexterApp/rb_main.rb8619172352#354"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/rb_main.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CLd /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp normal x86_64
+s317508539.414258
+e317508539.534961
+r1
+xLd
+x/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp
+xnormal
+xx86_64
+lSLF07#2@111"Link /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp317508539#317508539#0(0"0(0#0#0"8629066560#691"    cd /Users/linus/Documents/Projekt/UndertexterApp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -filelist /Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/UndertexterApp.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp0#
+
+CProcessInfoPlistFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist Info.plist
+s317508538.363205
+e317508538.371595
+r1
+xProcessInfoPlistFile
+x/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist317508538#317508538#0(0"0(0#0#56"/Users/linus/Documents/Projekt/UndertexterApp/Info.plist27584981513797680#337"    cd /Users/linus/Documents/Projekt/UndertexterApp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist0#
+
+CTouch /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
+s317527353.300471
+e317527353.307823
+r1
+xTouch
+x/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
+lSLF07#2@82"Touch /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app317527353#317527353#0(0"0(0#0#0"8829508224#152"    cd /Users/linus/Documents/Projekt/UndertexterApp    /usr/bin/touch -c /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app0#
+
