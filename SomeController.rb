@@ -13,6 +13,10 @@ class SomeController <  NSView
     @loading.animates = true
     @loading.hidden = true
     @queue = Dispatch::Queue.new('net.undertexter.com')
+    @queue.async do
+      require 'rubygems'
+      require 'undertexter'
+    end
   end
   
   def draggingEntered(sender)
@@ -46,9 +50,10 @@ class SomeController <  NSView
     @loading.hidden = false
     
     @queue.async do
-      sleep 1
+      subtitle = Undertexter.find(self.file_name).first
+      NSLog(self.file_name)
+      @information_field.stringValue = subtitle.nil? ? "Inget hittades" : subtitle.movie_title
       @loading.hidden = true
-      @information_field.stringValue = self.file_name
       @information_field.hidden = false
     end
     
@@ -67,6 +72,6 @@ class SomeController <  NSView
   end
   
   def file_name
-    File.basename(@file)
+    File.basename(@file, '.*')
   end
 end

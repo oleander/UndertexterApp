@@ -60,10 +60,58 @@
 	};
 	1579651012ECDDE10097608A /* SomeController.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1085, 767}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1085, 676}}";
 			sepNavSelRange = "{1210, 0}";
-			sepNavVisRange = "{0, 963}";
+			sepNavVisRange = "{0, 994}";
 		};
+	};
+	157965E312ED276D0097608A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 157964DC12ECCB9D0097608A /* AppController.rb */;
+		name = "AppController.rb: 18";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	157965E412ED276D0097608A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 18";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 0;
+	};
+	157965E512ED276D0097608A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 157964F012ECCCC60097608A /* CalcController.rb */;
+		name = "CalcController.rb: 15";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	157965E612ED276D0097608A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1579651012ECDDE10097608A /* SomeController.rb */;
+		name = "SomeController.rb: 50";
+		rLen = 0;
+		rLoc = 1210;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 0;
+	};
+	157965E712ED276D0097608A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1579659812ED06100097608A /* activityindicator.gif */;
+	};
+	157965E812ED276D0097608A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1579659812ED06100097608A /* activityindicator.gif */;
 	};
 	172754BD107597F200D0347B /* Unit Tests */ = {
 		activeExec = 0;
@@ -102,8 +150,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317508431;
-			PBXWorkspaceStateSaveDate = 317508431;
+			PBXPerProjectTemplateStateSaveDate = 317532023;
+			PBXWorkspaceStateSaveDate = 317532023;
+		};
+		perUserProjectItems = {
+			157965E312ED276D0097608A = 157965E312ED276D0097608A /* PBXTextBookmark */;
+			157965E412ED276D0097608A = 157965E412ED276D0097608A /* PBXTextBookmark */;
+			157965E512ED276D0097608A = 157965E512ED276D0097608A /* PBXTextBookmark */;
+			157965E612ED276D0097608A = 157965E612ED276D0097608A /* PBXTextBookmark */;
+			157965E712ED276D0097608A = 157965E712ED276D0097608A /* PBXBookmark */;
+			157965E812ED276D0097608A = 157965E812ED276D0097608A /* PBXBookmark */;
 		};
 		sourceControlManager = 157964D812ECCB540097608A /* Source Control */;
 		userBuildSettings = {

@@ -7,11 +7,10 @@
 #
 
 class AppController
-  attr_accessor :drag_area
+  attr_accessor :window
   
   def awakeFromNib
-    # drag_area.delegate = MainController.new
-    # drag_area.registerForDraggedTypes([NSDragOperationGeneric, nil])
-    NSLog("sdfölsdkfösldkfölsdkfölskdföl")
+    # Fönstret ska alltid vara överst
+    self.window.level = NSFloatingWindowLevel
   end
 end

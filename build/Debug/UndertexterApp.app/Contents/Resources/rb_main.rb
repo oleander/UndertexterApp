@@ -18,6 +18,6 @@ Dir.glob(File.join(dir_path, '*.{rb,rbo}')).map { |x| File.basename(x, File.extn
     require(path)
   end
 end
-
+    
 # Starting the Cocoa main loop.
 NSApplicationMain(0, nil)
