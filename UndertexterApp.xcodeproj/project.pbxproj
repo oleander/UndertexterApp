@@ -43,6 +43,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1537971912EF75EA00B80C2A /* unrar in Resources */ = {isa = PBXBuildFile; fileRef = 1537971812EF75EA00B80C2A /* unrar */; };
 		157964DD12ECCB9D0097608A /* AppController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 157964DC12ECCB9D0097608A /* AppController.rb */; };
 		157964F112ECCCC60097608A /* CalcController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 157964F012ECCCC60097608A /* CalcController.rb */; };
 		1579651112ECDDE10097608A /* SomeController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1579651012ECDDE10097608A /* SomeController.rb */; };
@@ -71,6 +72,7 @@
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1537971812EF75EA00B80C2A /* unrar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unrar; sourceTree = "<group>"; };
 		157964DC12ECCB9D0097608A /* AppController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppController.rb; sourceTree = "<group>"; };
 		157964F012ECCCC60097608A /* CalcController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CalcController.rb; sourceTree = "<group>"; };
 		1579651012ECDDE10097608A /* SomeController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SomeController.rb; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1537971812EF75EA00B80C2A /* unrar */,
 				1579659812ED06100097608A /* activityindicator.gif */,
 				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -249,6 +252,7 @@
 				157964F112ECCCC60097608A /* CalcController.rb in Resources */,
 				1579651112ECDDE10097608A /* SomeController.rb in Resources */,
 				1579659912ED06100097608A /* activityindicator.gif in Resources */,
+				1537971912EF75EA00B80C2A /* unrar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

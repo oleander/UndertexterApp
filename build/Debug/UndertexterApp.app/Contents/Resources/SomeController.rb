@@ -4,7 +4,20 @@ class SomeController <  NSView
   
   def initWithFrame(frame)
     super(frame)
+    
+    @language = {
+      1 => :swedish,
+      0 => :english 
+    }
+    
+    @default_language = 1
+    
     return self
+  end
+  
+  def language_button(sender)
+    @default_language = sender.selectedSegment
+     NSLog("oooooooooooooooooooo#{@language[@default_language]}")
   end
   
   def awakeFromNib
@@ -16,11 +29,14 @@ class SomeController <  NSView
     @queue.async do
       require 'rubygems'
       require 'undertexter'
+      require 'movie_searcher'
+      require 'dam_lev'
+      require 'mimer'
     end
   end
   
   def draggingEntered(sender)
-    return  NSDragOperationCopy
+    return NSDragOperationCopy
   end
 
   def draggingExited(sender)
@@ -30,11 +46,11 @@ class SomeController <  NSView
   # Styr den lilla gröna ikonen som poppar upp när man håller musen över
   # Om objektet som hålls över är en fil så visas en grön ikon 
   def draggingUpdated(sender)
-    return is_file?(sender) ? NSDragOperationCopy : NSDragOperationNone
+    return NSDragOperationCopy
   end
 
   def prepareForDragOperation(sender)
-    return self.is_file?(sender)
+    return true
   end
   
   def draggingSourceOperationMaskForLocal(isLocal)
@@ -42,17 +58,41 @@ class SomeController <  NSView
   end
   
   def performDragOperation(sender)
-    return self.is_file?(sender)
+    return true
   end
 
   def concludeDragOperation(sender)
+    @name = is_file?(sender) ? self.file_name : self.dir_name
+    
+    NSLog("En fil togs emot")
     @information_field.hidden = true
     @loading.hidden = false
     
     @queue.async do
-      subtitle = Undertexter.find(self.file_name).first
-      NSLog(self.file_name)
-      @information_field.stringValue = subtitle.nil? ? "Inget hittades" : subtitle.movie_title
+      movie = MovieSearcher.find_by_release_name(@name)
+      if movie
+        subtitles = Undertexter.find(movie.imdb_id, :language => @language[@default_language])
+        if subtitles.any?
+          subtitle = subtitles.sort_by{|s| DamLev.distance(s.title, @name)}.first
+          NSLog("Texten #{subtitle.movie_title} hittades")
+          @information_field.stringValue = subtitle.movie_title
+          self.success!(sender, subtitle)
+        else
+          NSLog("Ingen sub hittades, testar igen")
+          subtitle = Undertexter.find(@name).first
+          if subtitle
+            @information_field.stringValue = subtitle.movie_title
+            self.success!(sender, subtitle)
+          else
+            NSLog("Tyvärr, inget hittades!")
+            @information_field.stringValue = "Inget hittades"
+          end
+        end
+      else
+        NSLog("Inget alls hittades...")
+        @information_field.stringValue = "Inget hittades"
+      end
+      
       @loading.hidden = true
       @information_field.hidden = false
     end
@@ -68,10 +108,40 @@ class SomeController <  NSView
   end
   
   def file(value)
-    @file = NSURL.URLFromPasteboard(value.draggingPasteboard).absoluteString.gsub('file://localhost', '')
+    @file = NSURL.URLFromPasteboard(value.draggingPasteboard).absoluteString.gsub('file://localhost', '').gsub(/%20/, ' ')
   end
   
   def file_name
     File.basename(@file, '.*')
+  end
+  
+  def dir_name
+    NSLog("Nu ska vi se: #{File.split(@file).last}")
+    File.split(@file).last
+  end
+  
+  def success!(sender, subtitle)
+    #Genererar en slumpmässig fil för temp
+    filename = (0...10).map{65.+(rand(25)).chr}.join.downcase + ".undertext"
+    puts "FIL:#{Mimer.identify(@file).mime_type}"
+    # Plockar fram rätt absolut sökväg till filen/mappen
+    path = (Mimer.identify(@file).mime_type.match(/x-directory/) ? @file : File.dirname(@file)).gsub(/\s+/, '\ ')
+    
+    # Laddar ner zip/rar-filen
+    data = RestClient.get subtitle.url
+    
+    file = File.new("/tmp/#{filename}", 'w')
+    file.write(data)
+    file.close
+    
+    type = Mimer.identify("/tmp/#{filename}")
+
+    if type.mime_type.match(/rar/)
+      puts "cd #{path} && #{NSBundle.mainBundle.resourcePath + "/unrar"} e -y /tmp/#{filename}"
+      %x(cd #{path} && #{NSBundle.mainBundle.resourcePath + "/unrar"} e -y /tmp/#{filename})
+    elsif type.mime_type.match(/zip/)
+      %x(unzip -n /tmp/#{filename} -d #{path})
+      puts "unzip -n /tmp/#{filename} -d #{path}"
+    end
   end
 end
