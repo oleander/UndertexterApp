@@ -1,6 +1,6 @@
 class SubController <  NSView
   
-  attr_accessor :information_field, :loading
+  attr_accessor :information_field, :loading, :details
   
   def initWithFrame(frame)
     super(frame)
@@ -74,6 +74,7 @@ class SubController <  NSView
     
     NSLog("En fil togs emot")
     @information_field.hidden = true
+    @details.hidden = true
     @loading.hidden = false
     
     @queue.async do
@@ -99,6 +100,11 @@ class SubController <  NSView
       else
         NSLog("Inget alls hittades...")
         @information_field.stringValue = "Inget hittades"
+      end
+      
+      if subtitle
+        @details.stringValue = subtitle.title
+        @details.hidden = false
       end
       
       @loading.hidden = true
