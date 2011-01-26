@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>UndertexterApp</string>
+	<key>CFBundleIconFile</key>
+	<string>Movies.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.UndertexterApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>

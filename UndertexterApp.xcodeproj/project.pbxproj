@@ -48,6 +48,8 @@
 		157964F112ECCCC60097608A /* CalcController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 157964F012ECCCC60097608A /* CalcController.rb */; };
 		1579651112ECDDE10097608A /* SomeController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1579651012ECDDE10097608A /* SomeController.rb */; };
 		1579659912ED06100097608A /* activityindicator.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1579659812ED06100097608A /* activityindicator.gif */; };
+		1586603412F04EBD001B6750 /* Sub.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1586603312F04EBD001B6750 /* Sub.rb */; };
+		1586606212F0597B001B6750 /* Movies.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1586606112F0597B001B6750 /* Movies.icns */; };
 		15CC033E12ED27B200B35617 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CC033D12ED27B200B35617 /* MacRuby.framework */; };
 		2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA9DA510CDF852007972A1 /* MainMenu.xib */; };
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
@@ -77,6 +79,8 @@
 		157964F012ECCCC60097608A /* CalcController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CalcController.rb; sourceTree = "<group>"; };
 		1579651012ECDDE10097608A /* SomeController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SomeController.rb; sourceTree = "<group>"; };
 		1579659812ED06100097608A /* activityindicator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = activityindicator.gif; sourceTree = "<group>"; };
+		1586603312F04EBD001B6750 /* Sub.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Sub.rb; sourceTree = "<group>"; };
+		1586606112F0597B001B6750 /* Movies.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Movies.icns; sourceTree = "<group>"; };
 		15CC033D12ED27B200B35617 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
 		172754D5107598EA00D0347B /* stub_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = stub_test.rb; sourceTree = "<group>"; };
 		17D55CD81076A1A2008207BD /* run_suite.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = run_suite.rb; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 				157964DC12ECCB9D0097608A /* AppController.rb */,
 				157964F012ECCCC60097608A /* CalcController.rb */,
 				1579651012ECDDE10097608A /* SomeController.rb */,
+				1586603312F04EBD001B6750 /* Sub.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1586606112F0597B001B6750 /* Movies.icns */,
 				1537971812EF75EA00B80C2A /* unrar */,
 				1579659812ED06100097608A /* activityindicator.gif */,
 				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
@@ -253,6 +259,8 @@
 				1579651112ECDDE10097608A /* SomeController.rb in Resources */,
 				1579659912ED06100097608A /* activityindicator.gif in Resources */,
 				1537971912EF75EA00B80C2A /* unrar in Resources */,
+				1586603412F04EBD001B6750 /* Sub.rb in Resources */,
+				1586606212F0597B001B6750 /* Movies.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

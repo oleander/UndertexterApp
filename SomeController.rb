@@ -1,4 +1,4 @@
-class SomeController <  NSView
+class SubController <  NSView
   
   attr_accessor :information_field, :loading
   
@@ -12,6 +12,8 @@ class SomeController <  NSView
     
     @default_language = 1
     
+    @sub = Sub.new
+    
     return self
   end
   
@@ -23,7 +25,7 @@ class SomeController <  NSView
     self.registerForDraggedTypes [NSURLPboardType, nil]
     @loading.image = NSImage.imageNamed("activityindicator.gif")
     @loading.animates = true
-    @loading.hidden = true
+    
     @queue = Dispatch::Queue.new('net.undertexter.com')
     
     @information_field.hidden = true

@@ -12,8 +12,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="29"/>
 			<integer value="399"/>
+			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -852,7 +852,7 @@
 							</object>
 							<string key="NSFrame">{{26, 20}, {324, 172}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<string key="NSClassName">SomeController</string>
+							<string key="NSClassName">SubController</string>
 						</object>
 						<object class="NSSegmentedControl" id="756374906">
 							<reference key="NSNextResponder" ref="439893737"/>
@@ -2269,10 +2269,10 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{347, 695}, {370, 212}}</string>
+					<string>{{347, 544}, {370, 212}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<boolean value="YES"/>
-					<string>{{347, 695}, {370, 212}}</string>
+					<string>{{347, 544}, {370, 212}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -2377,7 +2377,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">SomeController</string>
+					<string key="className">SubController</string>
 					<string key="superclassName">NSView</string>
 					<object class="NSMutableDictionary" key="actions">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2459,11 +2459,9 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>information_field</string>
 							<string>loading</string>
-							<string>main_window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -2474,7 +2472,6 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>information_field</string>
 							<string>loading</string>
-							<string>main_window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2484,10 +2481,6 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">loading</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">main_window</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>

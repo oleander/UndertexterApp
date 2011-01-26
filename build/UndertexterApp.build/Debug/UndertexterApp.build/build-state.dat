@@ -1,7 +1,7 @@
 TUndertexterApp
 v7
 r0
-t317699340.909445
+t317741458.773104
 cCheck dependencies
 cProcessInfoPlistFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -12,6 +12,8 @@ cCpResource build/Debug/UndertexterApp.app/Contents/Resources/CalcController.rb 
 cCpResource build/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb SomeController.rb
 cCpResource build/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif activityindicator.gif
 cCpResource build/Debug/UndertexterApp.app/Contents/Resources/unrar unrar
+cCpResource build/Debug/UndertexterApp.app/Contents/Resources/Sub.rb Sub.rb
+cCpResource build/Debug/UndertexterApp.app/Contents/Resources/Movies.icns Movies.icns
 cCompileC build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o /Users/linus/Documents/Projekt/UndertexterApp/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp normal x86_64
 cTouch /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
@@ -57,19 +59,39 @@ t1295815631
 s184
 
 N/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib
-c000000004D3F7D30000000000002111B
-t1296006448
-s135451
+c000000004D4015720000000000021016
+t1296045426
+s135190
 
 N/Users/linus/Documents/Projekt/UndertexterApp/MainController.rb
 c000000004D3C9B410000000000000191
 t1295817537
 s401
 
+N/Users/linus/Documents/Projekt/UndertexterApp/Movies.icns
+c000000004D4021DD000000000001DF26
+t1296048605
+s122662
+
+N/Users/linus/Documents/Projekt/UndertexterApp/Movies/Icon
+c000000004AAFDB270000000000000000
+t1253038887
+s0
+
+N/Users/linus/Documents/Projekt/UndertexterApp/Movies/Icon.icns
+c000000004AAFDB270000000000000000
+t1253038887
+s0
+
 N/Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb
-c000000004D3F7D870000000000000F78
-t1296006535
-s3960
+c000000004D40174C0000000000000F79
+t1296045900
+s3961
+
+N/Users/linus/Documents/Projekt/UndertexterApp/Sub.rb
+c000000004D40173D0000000000000092
+t1296045885
+s146
 
 N/Users/linus/Documents/Projekt/UndertexterApp/activity indicator.gif
 c000000004D3CCA390000000000000784
@@ -82,19 +104,19 @@ t1295829561
 s1924
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
-t1296006540
+t1296048658
 s102
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist
-t1295815738
-s790
+t1296048658
+s849
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp
 t1295815739
 s9088
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/PkgInfo
-t1295815738
+t1296048658
 s8
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/AppController.rb
@@ -110,16 +132,32 @@ t1295815738
 s184
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/MainMenu.nib
-t1296006453
-s23200
+t1296045428
+s23196
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/Icon
+t1296048228
+s0
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/Icon.icns
+t1296047866
+s57605
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/MainController.rb
 t1295817763
 s401
 
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/Movies.icns
+t1296048658
+s122662
+
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb
-t1296006540
-s3960
+t1296046802
+s3961
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/Sub.rb
+t1296046802
+s146
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/activity indicator.gif
 t1295830339
@@ -128,6 +166,14 @@ s1924
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif
 t1295830690
 s1924
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/icon.icns
+t1296047866
+s57605
+
+N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/icon.png
+t1296046802
+s34962
 
 N/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/rb_main.rb
 t1295839985
@@ -146,6 +192,16 @@ N/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/
 t1295815739
 s5364
 
+N/Users/linus/Documents/Projekt/UndertexterApp/icon.icns
+c000000004D401ECB000000000000E105
+t1296047819
+s57605
+
+N/Users/linus/Documents/Projekt/UndertexterApp/icon.png
+c000000004D401A840000000000008892
+t1296046724
+s34962
+
 N/Users/linus/Documents/Projekt/UndertexterApp/main.m
 c000000004D3C93CF00000000000000FC
 t1295815631
@@ -163,13 +219,13 @@ t1152241002
 s378624
 
 NInfo.plist
-c000000004D3C93CF000000000000034B
-t1295815631
-s843
+c000000004D4022100000000000000356
+t1296048656
+s854
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies317699340#317699340#0(0"0(0#1#0"8630750304#0"0#
+lSLF07#2@18"Check dependencies317741458#317741458#0(0"0(0#1#0"8614551424#0"0#
 
 CCompileC build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o /Users/linus/Documents/Projekt/UndertexterApp/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s317508538.725921
@@ -185,12 +241,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/linus/Documents/Projekt/UndertexterApp/main.m317508538#317508539#0(0"0(0#0#52"/Users/linus/Documents/Projekt/UndertexterApp/main.m8619649408#1099"    cd /Users/linus/Documents/Projekt/UndertexterApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/UndertexterApp.hmap -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -I/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/include -I/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/DerivedSources/x86_64 -I/Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/DerivedSources -c /Users/linus/Documents/Projekt/UndertexterApp/main.m -o /Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB /Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib
-s317699253.389259
-e317699253.685912
+s317738228.357798
+e317738228.638209
 r1
 xCompileXIB
 x/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317699253#317699253#0(0"0(0#0#72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib8627533280#392"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/MainMenu.nib /Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317738228#317738228#0(0"0(0#0#72"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib30962681237012596#392"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/MainMenu.nib /Users/linus/Documents/Projekt/UndertexterApp/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCopyStringsFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s317508538.371948
@@ -200,6 +256,15 @@ xCopyStringsFile
 x/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings317508538#317508538#0(0"0(0#0#77"/Users/linus/Documents/Projekt/UndertexterApp/English.lproj/InfoPlist.strings8619411360#387"    cd /Users/linus/Documents/Projekt/UndertexterApp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources/English.lproj0#
+
+CCpResource "build/Debug/UndertexterApp.app/Contents/Resources/Icon" "Movies/Icon"
+s317741028.757599
+e317741028.765942
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/Icon
+xMovies/Icon
+lSLF07#2@17"Copy Movies/Icon317741028#317741028#0(0"0(0#0#58"/Users/linus/Documents/Projekt/UndertexterApp/Movies/Icon8610079392#358"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/linus/Documents/Projekt/UndertexterApp/Movies/Icon" /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
 
 CCpResource "build/Debug/UndertexterApp.app/Contents/Resources/activity indicator.gif" "activity indicator.gif"
 s317523139.069436
@@ -228,6 +293,9 @@ xbuild/Debug/UndertexterApp.app/Contents/Resources/CalcController.rb
 xCalcController.rb
 lSLF07#2@22"Copy CalcController.rb317511644#317511644#0(0"0(0#0#63"/Users/linus/Documents/Projekt/UndertexterApp/CalcController.rb8633485504#361"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/CalcController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
 
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/Icon.icns Movies/Icon.icns
+r0
+
 CCpResource build/Debug/UndertexterApp.app/Contents/Resources/MainController.rb MainController.rb
 s317510563.975800
 e317510564.009846
@@ -237,14 +305,32 @@ xbuild/Debug/UndertexterApp.app/Contents/Resources/MainController.rb
 xMainController.rb
 lSLF07#2@22"Copy MainController.rb317510563#317510564#0(0"0(0#0#63"/Users/linus/Documents/Projekt/UndertexterApp/MainController.rb8826233152#361"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/MainController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
 
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/Movies.icns Movies.icns
+s317741458.763712
+e317741458.770365
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/Movies.icns
+xMovies.icns
+lSLF07#2@16"Copy Movies.icns317741458#317741458#0(0"0(0#0#57"/Users/linus/Documents/Projekt/UndertexterApp/Movies.icns8614650368#355"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/Movies.icns /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
 CCpResource build/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb SomeController.rb
-s317699340.898880
-e317699340.904348
+s317739602.153592
+e317739602.160405
 r1
 xCpResource
 xbuild/Debug/UndertexterApp.app/Contents/Resources/SomeController.rb
 xSomeController.rb
-lSLF07#2@22"Copy SomeController.rb317699340#317699340#0(0"0(0#0#63"/Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb8758200544#361"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+lSLF07#2@22"Copy SomeController.rb317739602#317739602#0(0"0(0#0#63"/Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb8611831904#361"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/SomeController.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/Sub.rb Sub.rb
+s317739602.154814
+e317739602.161209
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/Sub.rb
+xSub.rb
+lSLF07#2@11"Copy Sub.rb317739602#317739602#0(0"0(0#0#52"/Users/linus/Documents/Projekt/UndertexterApp/Sub.rb8611660032#350"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/Sub.rb /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
 
 CCpResource build/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif activityindicator.gif
 s317523490.239338
@@ -254,6 +340,24 @@ xCpResource
 xbuild/Debug/UndertexterApp.app/Contents/Resources/activityindicator.gif
 xactivityindicator.gif
 lSLF07#2@26"Copy activityindicator.gif317523490#317523490#0(0"0(0#0#67"/Users/linus/Documents/Projekt/UndertexterApp/activityindicator.gif8725885120#365"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/activityindicator.gif /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/icon.icns icon.icns
+s317740666.289006
+e317740666.301193
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns317740666#317740666#0(0"0(0#0#55"/Users/linus/Documents/Projekt/UndertexterApp/icon.icns8614886208#353"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/icon.icns /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
+
+CCpResource build/Debug/UndertexterApp.app/Contents/Resources/icon.png icon.png
+s317739602.155376
+e317739602.166179
+r1
+xCpResource
+xbuild/Debug/UndertexterApp.app/Contents/Resources/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png317739602#317739602#0(0"0(0#0#54"/Users/linus/Documents/Projekt/UndertexterApp/icon.png8611629216#352"    cd /Users/linus/Documents/Projekt/UndertexterApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/linus/Documents/Projekt/UndertexterApp/icon.png /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Resources0#
 
 CCpResource build/Debug/UndertexterApp.app/Contents/Resources/rb_main.rb rb_main.rb
 s317532785.674686
@@ -284,19 +388,19 @@ xx86_64
 lSLF07#2@111"Link /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp317508539#317508539#0(0"0(0#0#0"8629066560#691"    cd /Users/linus/Documents/Projekt/UndertexterApp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -F/Users/linus/Documents/Projekt/UndertexterApp/build/Debug -filelist /Users/linus/Documents/Projekt/UndertexterApp/build/UndertexterApp.build/Debug/UndertexterApp.build/Objects-normal/x86_64/UndertexterApp.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/MacOS/UndertexterApp0#
 
 CProcessInfoPlistFile /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist Info.plist
-s317508538.363205
-e317508538.371595
+s317741458.743132
+e317741458.763154
 r1
 xProcessInfoPlistFile
 x/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist
 xInfo.plist
-lSLF07#2@18"Process Info.plist317508538#317508538#0(0"0(0#0#56"/Users/linus/Documents/Projekt/UndertexterApp/Info.plist27584981513797680#337"    cd /Users/linus/Documents/Projekt/UndertexterApp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist0#
+lSLF07#2@18"Process Info.plist317741458#317741458#0(0"0(0#0#56"/Users/linus/Documents/Projekt/UndertexterApp/Info.plist8614380192#337"    cd /Users/linus/Documents/Projekt/UndertexterApp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app/Contents/Info.plist0#
 
 CTouch /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
-s317699340.905623
-e317699340.909401
+s317741458.770585
+e317741458.773067
 r1
 xTouch
 x/Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app
-lSLF07#2@82"Touch /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app317699340#317699340#0(0"0(0#0#0"8664332768#152"    cd /Users/linus/Documents/Projekt/UndertexterApp    /usr/bin/touch -c /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app0#
+lSLF07#2@82"Touch /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app317741458#317741458#0(0"0(0#0#0"8614315072#152"    cd /Users/linus/Documents/Projekt/UndertexterApp    /usr/bin/touch -c /Users/linus/Documents/Projekt/UndertexterApp/build/Debug/UndertexterApp.app0#
 
