@@ -13,7 +13,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="29"/>
-			<integer value="407"/>
+			<integer value="399"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -854,17 +854,17 @@
 							<reference key="NSSuperview" ref="439893737"/>
 							<string key="NSClassName">SomeController</string>
 						</object>
-						<object class="NSSegmentedControl" id="746450571">
+						<object class="NSSegmentedControl" id="756374906">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{135, 0}, {105, 18}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSSegmentedCell" key="NSCell" id="699390799">
+							<object class="NSSegmentedCell" key="NSCell" id="767718587">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">279168</int>
 								<reference key="NSSupport" ref="22"/>
-								<reference key="NSControlView" ref="746450571"/>
+								<reference key="NSControlView" ref="756374906"/>
 								<object class="NSMutableArray" key="NSSegmentImages">
 									<bool key="EncodedWithXMLCoder">YES</bool>
 									<object class="NSSegmentItem">
@@ -1247,7 +1247,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">language_button:</string>
 						<reference key="source" ref="727762627"/>
-						<reference key="destination" ref="746450571"/>
+						<reference key="destination" ref="756374906"/>
 					</object>
 					<int key="connectionID">408</int>
 				</object>
@@ -1867,7 +1867,7 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="663304496"/>
-							<reference ref="746450571"/>
+							<reference ref="756374906"/>
 							<reference ref="727762627"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
@@ -1921,17 +1921,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">406</int>
-						<reference key="object" ref="746450571"/>
+						<reference key="object" ref="756374906"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="699390799"/>
+							<reference ref="767718587"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">407</int>
-						<reference key="object" ref="699390799"/>
-						<reference key="parent" ref="746450571"/>
+						<reference key="object" ref="767718587"/>
+						<reference key="parent" ref="756374906"/>
 					</object>
 				</object>
 			</object>
@@ -2352,7 +2352,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">408</int>
+			<int key="maxID">412</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2459,9 +2459,11 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>information_field</string>
 							<string>loading</string>
+							<string>main_window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -2472,6 +2474,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>information_field</string>
 							<string>loading</string>
+							<string>main_window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2481,6 +2484,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">loading</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">main_window</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>

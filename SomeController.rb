@@ -17,7 +17,6 @@ class SomeController <  NSView
   
   def language_button(sender)
     @default_language = sender.selectedSegment
-     NSLog("oooooooooooooooooooo#{@language[@default_language]}")
   end
   
   def awakeFromNib
@@ -26,12 +25,19 @@ class SomeController <  NSView
     @loading.animates = true
     @loading.hidden = true
     @queue = Dispatch::Queue.new('net.undertexter.com')
+    
+    @information_field.hidden = true
+    @loading.hidden = false
+    
     @queue.async do
       require 'rubygems'
       require 'undertexter'
       require 'movie_searcher'
       require 'dam_lev'
       require 'mimer'
+      
+      @information_field.hidden = false
+      @loading.hidden = true
     end
   end
   
@@ -75,13 +81,13 @@ class SomeController <  NSView
         if subtitles.any?
           subtitle = subtitles.sort_by{|s| DamLev.distance(s.title, @name)}.first
           NSLog("Texten #{subtitle.movie_title} hittades")
-          @information_field.stringValue = subtitle.movie_title
+          @information_field.stringValue = movie.title
           self.success!(sender, subtitle)
         else
           NSLog("Ingen sub hittades, testar igen")
           subtitle = Undertexter.find(@name).first
           if subtitle
-            @information_field.stringValue = subtitle.movie_title
+            @information_field.stringValue = movie.title
             self.success!(sender, subtitle)
           else
             NSLog("Tyvärr, inget hittades!")
@@ -122,8 +128,8 @@ class SomeController <  NSView
   
   def success!(sender, subtitle)
     #Genererar en slumpmässig fil för temp
-    filename = (0...10).map{65.+(rand(25)).chr}.join.downcase + ".undertext"
-    puts "FIL:#{Mimer.identify(@file).mime_type}"
+    filename = (0...10).map{65.+(rand(25)).chr}.join.downcase
+    
     # Plockar fram rätt absolut sökväg till filen/mappen
     path = (Mimer.identify(@file).mime_type.match(/x-directory/) ? @file : File.dirname(@file)).gsub(/\s+/, '\ ')
     
@@ -137,11 +143,9 @@ class SomeController <  NSView
     type = Mimer.identify("/tmp/#{filename}")
 
     if type.mime_type.match(/rar/)
-      puts "cd #{path} && #{NSBundle.mainBundle.resourcePath + "/unrar"} e -y /tmp/#{filename}"
       %x(cd #{path} && #{NSBundle.mainBundle.resourcePath + "/unrar"} e -y /tmp/#{filename})
     elsif type.mime_type.match(/zip/)
       %x(unzip -n /tmp/#{filename} -d #{path})
-      puts "unzip -n /tmp/#{filename} -d #{path}"
     end
   end
 end
